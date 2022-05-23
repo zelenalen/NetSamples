@@ -44,10 +44,6 @@
                     Console.WriteLine("Incorrect number");
                     break;
             }
-
-
-
-
         }
     }
 }
