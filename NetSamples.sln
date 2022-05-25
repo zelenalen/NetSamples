@@ -19,13 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.BaseTypeConversi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.ConsoleInputOutput", "NetSamples.ConsoleInputOutput\NetSamples.ConsoleInputOutput.csproj", "{63CD55A0-2075-4235-A630-FB24696C65DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.IfElseSample", "NetSamples.IfElseSample\NetSamples.IfElseSample.csproj", "{2A7321CA-3C59-4C95-B4A4-1318561260FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.IfElseSample", "NetSamples.IfElseSample\NetSamples.IfElseSample.csproj", "{2A7321CA-3C59-4C95-B4A4-1318561260FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Switch", "NetSamples.Switch\NetSamples.Switch.csproj", "{D77973D7-D72B-47EE-B2B7-701F0523C53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Switch", "NetSamples.Switch\NetSamples.Switch.csproj", "{D77973D7-D72B-47EE-B2B7-701F0523C53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Loops", "NetSamples.Loops\NetSamples.Loops.csproj", "{A1B69083-EDF7-48DE-866D-C6D2136BD79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Loops", "NetSamples.Loops\NetSamples.Loops.csproj", "{A1B69083-EDF7-48DE-866D-C6D2136BD79F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.ConsoleMenuSample", "NetSamples.ConsoleMenuSample\NetSamples.ConsoleMenuSample.csproj", "{4AA9837A-3CC7-4C2D-BC64-6E8CFFA393CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.ConsoleMenuSample", "NetSamples.ConsoleMenuSample\NetSamples.ConsoleMenuSample.csproj", "{4AA9837A-3CC7-4C2D-BC64-6E8CFFA393CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Methods", "NetSamples.Methods\NetSamples.Methods.csproj", "{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{4AA9837A-3CC7-4C2D-BC64-6E8CFFA393CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AA9837A-3CC7-4C2D-BC64-6E8CFFA393CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AA9837A-3CC7-4C2D-BC64-6E8CFFA393CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
