@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Loops", "NetSamp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.ConsoleMenuSample", "NetSamples.ConsoleMenuSample\NetSamples.ConsoleMenuSample.csproj", "{4AA9837A-3CC7-4C2D-BC64-6E8CFFA393CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Methods", "NetSamples.Methods\NetSamples.Methods.csproj", "{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Methods", "NetSamples.Methods\NetSamples.Methods.csproj", "{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.MethodParameters", "NetSamples.MethodParameters\NetSamples.MethodParameters.csproj", "{4800A5F9-D16C-4ADF-9385-FA8E4C438552}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1CA77C2-6BA1-42DF-8179-99B4F8C7F112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4800A5F9-D16C-4ADF-9385-FA8E4C438552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4800A5F9-D16C-4ADF-9385-FA8E4C438552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4800A5F9-D16C-4ADF-9385-FA8E4C438552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4800A5F9-D16C-4ADF-9385-FA8E4C438552}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
