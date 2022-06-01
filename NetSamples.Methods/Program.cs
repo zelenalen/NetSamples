@@ -11,6 +11,10 @@
             
             //request 2 numbers and sum them
 
+            var arr = new[] { 1, 3, 4 };
+            var arr2 = new[] { 1, 3, 4 };
+            CalculateSum(arr);
+
             var a = Convert.ToInt32(Console.ReadLine());
             var b = Convert.ToInt32(Console.ReadLine());
             
@@ -109,8 +113,6 @@
             Console.WriteLine($"{name} - {employeeAmount} - {headOffice}");
         }
 
-
-
         static void DoSmth()
         {
             bool isContinue = true;
@@ -138,5 +140,26 @@
             return normalizedUserInput == "Y";
         }
 
+        static long CalculateSum(string str, params int[] numbers)
+        {
+            var sum = 0l;
+
+            foreach (var i in numbers)
+            {
+                sum += i;
+            }
+            return sum;
+        }
+
+        static long CalculateSum(string str, int[] numbers, int[] numbers2, int[] numbers3, int[] numbers4)
+        {
+            var sum = 0l;
+
+            foreach (var i in numbers)
+            {
+                sum += i;
+            }
+            return sum;
+        }
     }
 }
