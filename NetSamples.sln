@@ -31,11 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.MethodParameters
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.ConsoleMenuSample", "NetSamples.ConsoleMenuSample\NetSamples.ConsoleMenuSample.csproj", "{2B56171E-8E3B-4F6C-90F6-D314C3CA3FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Arrays", "NetSamples.Arrays\NetSamples.Arrays.csproj", "{C7C95824-6880-4CEA-8FD8-3EE752C57318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Arrays", "NetSamples.Arrays\NetSamples.Arrays.csproj", "{C7C95824-6880-4CEA-8FD8-3EE752C57318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Foreach", "NetSamples.Foreach\NetSamples.Foreach.csproj", "{F7DC7CAA-B061-4048-AB28-E5BFCDB95CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Foreach", "NetSamples.Foreach\NetSamples.Foreach.csproj", "{F7DC7CAA-B061-4048-AB28-E5BFCDB95CD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.ArrayOfArrays", "NetSamples.ArrayOfArrays\NetSamples.ArrayOfArrays.csproj", "{555515B2-3172-4139-A7BA-A19AC3A1A915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.ArrayOfArrays", "NetSamples.ArrayOfArrays\NetSamples.ArrayOfArrays.csproj", "{555515B2-3172-4139-A7BA-A19AC3A1A915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.MethodsReturningArray", "NetSamples.MethodsReturningArray\NetSamples.MethodsReturningArray.csproj", "{1C458331-2D6D-4252-BCAE-D2991AD714E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Classes", "NetSamples.Classes\NetSamples.Classes.csproj", "{53C594CE-FC7B-4A7F-8DE3-79EBABBBF1C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{555515B2-3172-4139-A7BA-A19AC3A1A915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{555515B2-3172-4139-A7BA-A19AC3A1A915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{555515B2-3172-4139-A7BA-A19AC3A1A915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C458331-2D6D-4252-BCAE-D2991AD714E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C458331-2D6D-4252-BCAE-D2991AD714E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C458331-2D6D-4252-BCAE-D2991AD714E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C458331-2D6D-4252-BCAE-D2991AD714E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C594CE-FC7B-4A7F-8DE3-79EBABBBF1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C594CE-FC7B-4A7F-8DE3-79EBABBBF1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C594CE-FC7B-4A7F-8DE3-79EBABBBF1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C594CE-FC7B-4A7F-8DE3-79EBABBBF1C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
