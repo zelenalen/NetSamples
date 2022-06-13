@@ -1,4 +1,6 @@
-﻿namespace NetSamples.Classes 
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace NetSamples.Classes 
 {
     internal class Program
     {
@@ -52,6 +54,48 @@
             bobik.Race = "Terrier";
 
             bobik.PrintInfo();
+
+
+            var company = new Company();
+            company.employees = new Employee[]
+            {
+                //new Employee(),
+                //new Employee(),
+                //new Employee(),
+                //new Employee()
+            };
+
+            Console.Clear();
+
+            var st1 = new Store(1, "Some address");
+            var st2 = new Store(1, "Some address");
+
+            //var stores = new Store[]
+            //{
+            //    new Store()
+            //    {
+            //        Id = 1,
+            //        Address = "Some Address 1"
+            //    },
+            //    new Store()
+            //    {
+            //        Id = 2,
+            //        Address = "Some Address 2"
+            //    },
+            //    new Store()
+            //    {
+            //        Id = 2,
+            //        Address = "Some Address 3" 
+            //    }
+            //};
+            Store.StoreNetworkName = "Hogs and hooves";
+
+            //Store.Discount = 15;
+
+            var price = Store.CalculatePrice(100);
+            Store.CreateRoute(15,18);
+
+
         }
     }
 }
