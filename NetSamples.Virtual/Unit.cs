@@ -1,6 +1,6 @@
-﻿namespace NetSamples.Virtual;
+﻿namespace NetSamples.OOP;
 
-public abstract class Unit : GameObject
+public abstract class Unit : GameObject, IFightableAndMovable
 {
     public string Name { get; set; }
     public int Cost { get; set; }

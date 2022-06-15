@@ -1,4 +1,4 @@
-﻿namespace NetSamples.Virtual
+﻿namespace NetSamples.OOP
 {
     internal class Program
     {
@@ -76,7 +76,25 @@
 
             //var unit = new Unit();
 
+            //IMoveable someObject = new FarmWithWheels();
+
+            var someNewArray = new IMoveable[]
+            {
+                new Fighter(),
+                new Archer(),
+                new FarmWithWheels(),
+                new MasterFighter()
+            };
         }
+
+        static void MoveObjectsToPoint(IMoveable[] objectsWhichCanMove, Point point)
+        {
+            foreach (var obj in objectsWhichCanMove)
+            {
+                obj.Move(point);
+            }
+        }
+
 
 
         static void PrintOverrideSample(Unit[] units)

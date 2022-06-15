@@ -1,4 +1,4 @@
-﻿namespace NetSamples.Virtual;
+﻿namespace NetSamples.OOP;
 
 public class MasterFighter : Fighter
 {
