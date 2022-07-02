@@ -4,9 +4,10 @@ namespace NetSamples.Collections;
 
 public class MyCollection<T> : IEnumerable<T>
 {
+    private List<T> values;
     public IEnumerator<T> GetEnumerator()
     {
-        
+        return values.GetEnumerator();
     }
 
     IEnumerator IEnumerable.GetEnumerator()
