@@ -69,7 +69,7 @@
 
             //^ -> true if 1 or 2 operand is true, but not both at same time
             isTrue1 = (1 < 2) ^ (3 > 2);
-
+            Console.WriteLine(isTrue1);
         }
     }
 }

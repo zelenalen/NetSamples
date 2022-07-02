@@ -51,6 +51,7 @@
             Console.WriteLine(character2);
             Console.WriteLine(character3);
 
+            //REFERENCE
             //up to 2GB - ? 
             string str = "str";
 

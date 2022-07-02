@@ -49,11 +49,18 @@ namespace NetSamples.MathOperations
 
             var x1 = 5;
             var x2 = 5;
-            var x3 = ++x1; //prefix 
-            var x4 = x2++; //postfix
+            var x3 = ++x1; //prefix -> ++ befor init
+            var x4 = x2++; //postfix -> ++ after init
 
             Console.WriteLine(x1+x3);
             Console.WriteLine(x2+x4);
+
+            var newResult1 = 10 / 5 + (--x1) * 2;
+            //Priority:
+            // 1. increment, decrement      --x1=5
+            // 2. multiply, devide, %       10/5=2, 5*2=10
+            // 3. + -                       2+10 =12
+            Console.WriteLine(newResult1);
 
         }
     }

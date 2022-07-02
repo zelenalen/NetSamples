@@ -20,6 +20,8 @@
             int x1 = int.MaxValue; //2kkk+
             int x2 = 1000; //2kkk+
 
+            var result = x1 * x2;
+
             y = checked(x1 * x2);
 
             long y1 = x1; //
