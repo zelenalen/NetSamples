@@ -13,7 +13,7 @@
 
             var arr = new[] { 1, 3, 4 };
             var arr2 = new[] { 1, 3, 4 };
-            CalculateSum(arr);
+            CalculateSum("",arr);
 
             var a = Convert.ToInt32(Console.ReadLine());
             var b = Convert.ToInt32(Console.ReadLine());

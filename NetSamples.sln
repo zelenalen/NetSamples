@@ -77,11 +77,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Streams", "NetSa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexMethodParameters", "ComplexMethodParameters\ComplexMethodParameters.csproj", "{F6E61167-9183-4D34-BDD4-A4E27E6E96BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Delegates", "NetSamples.Delegates\NetSamples.Delegates.csproj", "{4146636D-FBD4-416C-A1E9-D2206A8BD57A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Delegates", "NetSamples.Delegates\NetSamples.Delegates.csproj", "{4146636D-FBD4-416C-A1E9-D2206A8BD57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.DelegatesRealSample", "NetSamples.DelegatesRealSample\NetSamples.DelegatesRealSample.csproj", "{0F8B6B57-AA08-4F75-94AA-B771F5E9A424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.DelegatesRealSample", "NetSamples.DelegatesRealSample\NetSamples.DelegatesRealSample.csproj", "{0F8B6B57-AA08-4F75-94AA-B771F5E9A424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.AnonymousMethodsAndLambda", "NetSamples.AnonymousMethodsAndLambda\NetSamples.AnonymousMethodsAndLambda.csproj", "{86234B34-C72A-40A3-A1C8-C82D539C1121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.AnonymousMethodsAndLambda", "NetSamples.AnonymousMethodsAndLambda\NetSamples.AnonymousMethodsAndLambda.csproj", "{86234B34-C72A-40A3-A1C8-C82D539C1121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Events", "NetSamples.Events\NetSamples.Events.csproj", "{4D74DC16-4BDE-4704-B8B9-5C04027F151D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.ActionFuncPredicate", "NetSamples.ActionFuncPredicate\NetSamples.ActionFuncPredicate.csproj", "{117D8AA4-A269-463D-A3CC-FCA7592014D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +253,14 @@ Global
 		{86234B34-C72A-40A3-A1C8-C82D539C1121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86234B34-C72A-40A3-A1C8-C82D539C1121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86234B34-C72A-40A3-A1C8-C82D539C1121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D74DC16-4BDE-4704-B8B9-5C04027F151D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D74DC16-4BDE-4704-B8B9-5C04027F151D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D74DC16-4BDE-4704-B8B9-5C04027F151D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D74DC16-4BDE-4704-B8B9-5C04027F151D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117D8AA4-A269-463D-A3CC-FCA7592014D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117D8AA4-A269-463D-A3CC-FCA7592014D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117D8AA4-A269-463D-A3CC-FCA7592014D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117D8AA4-A269-463D-A3CC-FCA7592014D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
